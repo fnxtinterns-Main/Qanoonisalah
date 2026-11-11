@@ -707,38 +707,31 @@ include_once __DIR__ . '/includes/header.php';
   </div>
 </section>
 
-<!-- Action Banner (Floating Luxury Card with 60% Gold Canvas, 30% Rich Black Architecture & 10% Emerald Action) -->
-<section class="py-20 lg:py-28 bg-gradient-to-b from-gold-50 via-gold-100/50 to-gold-50 border-t border-gold-300 relative overflow-hidden">
+<!-- Action Banner (30% Black Base with 60% Gold & 10% Emerald Conversion) -->
+<section class="py-20 md:py-24 bg-black-900 text-gold-100 border-t-2 border-gold-500 relative overflow-hidden">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="relative rounded-3xl bg-gradient-to-br from-black-950 via-black-900 to-black-950 border-2 border-gold-500/60 p-8 sm:p-12 lg:p-16 shadow-2xl shadow-gold-950/20 overflow-hidden">
-      <!-- Decorative background glow -->
-      <div class="absolute -top-24 -right-24 w-80 h-80 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="flex flex-col lg:flex-row items-center justify-between gap-10 text-center lg:text-left">
+      <div class="space-y-3 max-w-2xl">
+        <span class="inline-block text-xs font-bold text-gold-400 uppercase tracking-widest">
+          Next-Generation Legal Infrastructure
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold font-serif text-white tracking-tight">
+          Ready to Resolve Your Legal Matter Today?
+        </h2>
+        <p class="text-gold-200/80 text-base sm:text-lg leading-relaxed">
+          Get in touch with qualified legal specialists right now. Fast, confidential, and completely transparent counsel across India.
+        </p>
+      </div>
 
-      <div class="flex flex-col lg:flex-row items-center justify-between gap-10 text-center lg:text-left relative z-10">
-        <div class="space-y-4 max-w-2xl">
-          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/40 text-gold-300 text-xs font-bold uppercase tracking-widest">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>Next-Generation Legal Infrastructure</span>
-          </div>
-          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif text-white tracking-tight leading-tight">
-            Ready to Resolve Your Legal Matter Today?
-          </h2>
-          <p class="text-gold-200/85 text-base sm:text-lg leading-relaxed">
-            Get in touch with qualified legal specialists right now. Fast, confidential, and completely transparent counsel across India.
-          </p>
-        </div>
-
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 w-full lg:w-auto">
-          <button class="open-consult-modal w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base shadow-xl shadow-emerald-950/40 hover:scale-[1.02] active:scale-[0.98] transition flex items-center justify-center">
-            <i data-lucide="calendar" class="w-5 h-5 mr-2.5"></i>
-            <span>Book Instant Consultation</span>
-          </button>
-          <a href="tel:<?= PHONE_PRIMARY_RAW ?>" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-black-900/90 hover:bg-black-850 text-gold-300 hover:text-gold-200 font-bold text-base border-2 border-gold-500/60 hover:border-gold-400 shadow-xl hover:scale-[1.02] active:scale-[0.98] transition flex items-center justify-center">
-            <i data-lucide="phone" class="w-5 h-5 mr-2.5 text-emerald-400"></i>
-            <span><?= PHONE_PRIMARY ?></span>
-          </a>
-        </div>
+      <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-5 w-full sm:w-auto">
+        <button class="open-consult-modal w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base shadow-xl shadow-emerald-950/40 transition flex items-center justify-center">
+          <i data-lucide="calendar" class="w-5 h-5 mr-2.5"></i>
+          <span>Book Instant Consultation</span>
+        </button>
+        <a href="tel:<?= PHONE_PRIMARY_RAW ?>" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-black-950 hover:bg-black-850 text-gold-300 font-bold text-base border-2 border-gold-500/50 hover:border-gold-400 transition flex items-center justify-center space-x-2">
+          <i data-lucide="phone" class="w-5 h-5 text-emerald-400"></i>
+          <span><?= PHONE_PRIMARY ?></span>
+        </a>
       </div>
     </div>
   </div>
