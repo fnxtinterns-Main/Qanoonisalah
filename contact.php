@@ -111,7 +111,7 @@ include_once __DIR__ . '/includes/header.php';
               </div>
               <div>
                 <label class="block text-xs font-bold text-black-950 uppercase tracking-wider mb-1.5">Contact Number *</label>
-                <input type="tel" required placeholder="+91 9801506511" class="w-full px-4 py-3 bg-gold-50/60 border border-gold-300 rounded-xl text-sm focus:ring-2 focus:ring-gold-500 transition">
+                <input type="tel" required placeholder="+91 7385383939" class="w-full px-4 py-3 bg-gold-50/60 border border-gold-300 rounded-xl text-sm focus:ring-2 focus:ring-gold-500 transition">
               </div>
             </div>
 

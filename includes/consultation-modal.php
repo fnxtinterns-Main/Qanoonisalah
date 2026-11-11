@@ -78,7 +78,7 @@
           </div>
           <div>
             <label class="block text-xs font-bold text-black-950 uppercase tracking-wider mb-1">Mobile / WhatsApp *</label>
-            <input type="tel" required placeholder="e.g. 9801506511" class="w-full px-3.5 py-2.5 bg-white border border-gold-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 transition">
+            <input type="tel" required placeholder="e.g. 7385383939" class="w-full px-3.5 py-2.5 bg-white border border-gold-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 transition">
           </div>
         </div>
 

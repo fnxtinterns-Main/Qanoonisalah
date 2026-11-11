@@ -19,10 +19,10 @@ define('DESIGNED_BY_URL', 'https://technxtai.com');
 define('DESIGNED_BY_TAG', 'Designed & Developed by Technxtai');
 
 // Contact Information
-define('PHONE_PRIMARY', '+91 9801506511');
-define('PHONE_PRIMARY_RAW', '9801506511');
-define('PHONE_SECONDARY', '+91 7385383939');
-define('PHONE_SECONDARY_RAW', '7385383939');
+define('PHONE_PRIMARY', '+91 7385383939');
+define('PHONE_PRIMARY_RAW', '7385383939');
+define('PHONE_SECONDARY', '+91 9801506511');
+define('PHONE_SECONDARY_RAW', '9801506511');
 define('WHATSAPP_NUMBER', '+917385383939');
 define('WHATSAPP_LINK', 'https://wa.me/917385383939?text=Hello%20Qanooni%20Salah%20Team%2C%20I%20need%20legal%20consultation.');
 
