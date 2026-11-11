@@ -4,26 +4,26 @@ require_once __DIR__ . '/config.php';
   </main>
 
   <!-- Compliance Banner (30% Black Base with 60% Gold Text & 10% Emerald Icon) -->
-  <div class="bg-black-900 border-t border-gold-800/60 text-gold-300/80 text-xs py-5">
+  <div class="bg-black-900 border-t border-gold-800/60 text-gold-300/80 text-xs py-7">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-        <div class="flex items-start space-x-3">
-          <i data-lucide="info" class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5"></i>
-          <p class="leading-relaxed">
-            <strong class="text-gold-200 font-bold">Legal Disclaimer & Compliance:</strong> Qanooni Salah is an independent legal facilitation platform connecting clients with independent legal practitioners. In accordance with the Bar Council of India rules, we do not solicit work or advertise legal services. The information provided on this platform is for educational and facilitative purposes only and does not constitute formal legal counsel.
-          </p>
+      <div class="bg-black-950/80 rounded-2xl border border-gold-800/60 p-4 sm:p-5 shadow-inner flex items-start sm:items-center space-x-3.5">
+        <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center flex-shrink-0 mt-0.5 sm:mt-0">
+          <i data-lucide="info" class="w-4 h-4 text-emerald-400"></i>
         </div>
+        <p class="leading-relaxed text-xs text-gold-200/85">
+          <strong class="text-gold-300 font-bold">Legal Disclaimer & Compliance:</strong> Qanooni Salah is an independent legal facilitation platform connecting clients with independent legal practitioners. In accordance with the Bar Council of India rules, we do not solicit work or advertise legal services. The information provided on this platform is for educational and facilitative purposes only and does not constitute formal legal counsel.
+        </p>
       </div>
     </div>
   </div>
 
   <!-- Main Footer (30% Deep Black Architecture, 60% Golden Typography & 10% Emerald Accents) -->
-  <footer class="bg-black-950 text-gold-200 pt-16 pb-12 border-t-2 border-gold-500/70">
+  <footer class="bg-black-950 text-gold-200 pt-18 pb-28 sm:pb-32 border-t-2 border-gold-500/70">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-gold-900/80">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-12 pb-14 border-b border-gold-900/80">
         
         <!-- Brand Column -->
-        <div class="lg:col-span-2 space-y-5">
+        <div class="lg:col-span-2 space-y-6">
           <a href="/" class="flex items-center space-x-3">
             <img src="/assets/images/logo.png" alt="Qanooni Salah Logo" class="h-12 w-auto brightness-110">
             <div>
@@ -60,11 +60,11 @@ require_once __DIR__ . '/config.php';
           </div>
 
           <!-- Trust Badges (10% Emerald Touch) -->
-          <div class="pt-2 flex flex-wrap gap-2 text-xs">
-            <span class="inline-flex items-center px-2.5 py-1 rounded-md bg-black-900 text-gold-300 border border-gold-800">
+          <div class="pt-2 flex flex-wrap gap-2.5 text-xs">
+            <span class="inline-flex items-center px-3 py-1.5 rounded-lg bg-black-900 text-gold-300 border border-gold-800/80">
               <i data-lucide="shield" class="w-3.5 h-3.5 mr-1.5 text-emerald-400"></i> Bar Council Verified
             </span>
-            <span class="inline-flex items-center px-2.5 py-1 rounded-md bg-black-900 text-gold-300 border border-gold-800">
+            <span class="inline-flex items-center px-3 py-1.5 rounded-lg bg-black-900 text-gold-300 border border-gold-800/80">
               <i data-lucide="lock" class="w-3.5 h-3.5 mr-1.5 text-emerald-400"></i> 256-Bit SSL Encrypted
             </span>
           </div>
@@ -72,10 +72,10 @@ require_once __DIR__ . '/config.php';
 
         <!-- Practice Areas (Clean URLs without .php) -->
         <div>
-          <h4 class="text-sm font-bold text-gold-400 uppercase tracking-wider mb-4 border-l-2 border-gold-500 pl-2.5">
+          <h4 class="text-sm font-bold text-gold-400 uppercase tracking-wider mb-5 border-l-2 border-gold-500 pl-3">
             Key Practice Areas
           </h4>
-          <ul class="space-y-2.5 text-sm text-gold-200/80">
+          <ul class="space-y-3 text-sm text-gold-200/80">
             <li><a href="/property" class="hover:text-gold-300 hover:translate-x-1 inline-block transition">Property Verification</a></li>
             <li><a href="/document" class="hover:text-gold-300 hover:translate-x-1 inline-block transition">Document Drafting</a></li>
             <li><a href="/startup" class="hover:text-gold-300 hover:translate-x-1 inline-block transition">Startup Incorporation</a></li>
@@ -88,10 +88,10 @@ require_once __DIR__ . '/config.php';
 
         <!-- Quick Platform Links (Clean URLs without .php) -->
         <div>
-          <h4 class="text-sm font-bold text-gold-400 uppercase tracking-wider mb-4 border-l-2 border-gold-500 pl-2.5">
+          <h4 class="text-sm font-bold text-gold-400 uppercase tracking-wider mb-5 border-l-2 border-gold-500 pl-3">
             Platform Links
           </h4>
-          <ul class="space-y-2.5 text-sm text-gold-200/80">
+          <ul class="space-y-3 text-sm text-gold-200/80">
             <li><a href="/about" class="hover:text-gold-300 hover:translate-x-1 inline-block transition">About Qanooni Salah</a></li>
             <li><a href="/talktolawyer" class="hover:text-gold-300 hover:translate-x-1 inline-block transition">Talk to a Lawyer</a></li>
             <li><a href="/partner" class="hover:text-gold-300 hover:translate-x-1 inline-block transition">Join as Advocate Partner</a></li>
@@ -104,29 +104,29 @@ require_once __DIR__ . '/config.php';
 
         <!-- Contact & Direct Access -->
         <div>
-          <h4 class="text-sm font-bold text-gold-400 uppercase tracking-wider mb-4 border-l-2 border-gold-500 pl-2.5">
+          <h4 class="text-sm font-bold text-gold-400 uppercase tracking-wider mb-5 border-l-2 border-gold-500 pl-3">
             Helplines & Offices
           </h4>
-          <ul class="space-y-3.5 text-sm text-gold-200/80">
+          <ul class="space-y-4 text-sm text-gold-200/80">
             <li class="flex items-start">
               <i data-lucide="phone" class="w-4 h-4 text-emerald-400 mr-2.5 flex-shrink-0 mt-0.5"></i>
               <div>
                 <a href="tel:<?= PHONE_PRIMARY_RAW ?>" class="hover:text-gold-300 block text-white font-medium"><?= PHONE_PRIMARY ?></a>
-                <a href="tel:<?= PHONE_SECONDARY_RAW ?>" class="hover:text-gold-300 block text-xs text-gold-400"><?= PHONE_SECONDARY ?></a>
+                <a href="tel:<?= PHONE_SECONDARY_RAW ?>" class="hover:text-gold-300 block text-xs text-gold-400 mt-0.5"><?= PHONE_SECONDARY ?></a>
               </div>
             </li>
             <li class="flex items-start">
               <i data-lucide="mail" class="w-4 h-4 text-emerald-400 mr-2.5 flex-shrink-0 mt-0.5"></i>
               <div>
                 <a href="mailto:<?= EMAIL_PRIMARY ?>" class="hover:text-gold-300 block"><?= EMAIL_PRIMARY ?></a>
-                <a href="mailto:<?= EMAIL_AFFILIATE ?>" class="hover:text-gold-300 block text-xs text-gold-400"><?= EMAIL_AFFILIATE ?></a>
+                <a href="mailto:<?= EMAIL_AFFILIATE ?>" class="hover:text-gold-300 block text-xs text-gold-400 mt-0.5"><?= EMAIL_AFFILIATE ?></a>
               </div>
             </li>
             <li class="flex items-start">
               <i data-lucide="map-pin" class="w-4 h-4 text-gold-400 mr-2.5 flex-shrink-0 mt-0.5"></i>
               <div>
                 <span class="text-xs font-bold text-gold-300 block uppercase tracking-wider">Registered Office</span>
-                <span class="text-xs leading-relaxed text-gold-300/80"><?= OFFICE_ADDRESS ?></span>
+                <span class="text-xs leading-relaxed text-gold-300/80 block mt-0.5"><?= OFFICE_ADDRESS ?></span>
               </div>
             </li>
           </ul>
@@ -135,7 +135,30 @@ require_once __DIR__ . '/config.php';
       </div>
 
       <!-- Bottom Credits & Copyright Bar -->
-      <div class="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-gold-400/80 gap-4">
+      <div class="pt-10 flex flex-col md:flex-row items-center justify-between text-xs text-gold-400/80 gap-5">
+        <div>
+          <p>© <?= date('Y') ?> <strong class="text-white">Qanooni Salah</strong>. All Rights Reserved. A FutureNxt Legal Initiative.</p>
+        </div>
+
+        <!-- Designer Credit -->
+        <div class="flex items-center space-x-2 bg-black-900 px-4 py-2 rounded-full border border-gold-600/40">
+          <span class="text-gold-300">Designed & Developed by</span>
+          <a href="<?= DESIGNED_BY_URL ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-white font-bold inline-flex items-center transition">
+            <span><?= DESIGNED_BY ?></span>
+            <i data-lucide="external-link" class="w-3 h-3 ml-1"></i>
+          </a>
+        </div>
+
+        <div class="flex items-center space-x-4 text-gold-300">
+          <a href="/privacy" class="hover:text-white transition">Privacy</a>
+          <span>•</span>
+          <a href="/termsconditions" class="hover:text-white transition">Terms</a>
+          <span>•</span>
+          <a href="/contact" class="hover:text-white transition">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
         <div>
           <p>© <?= date('Y') ?> <strong class="text-white">Qanooni Salah</strong>. All Rights Reserved. A FutureNxt Legal Initiative.</p>
         </div>
