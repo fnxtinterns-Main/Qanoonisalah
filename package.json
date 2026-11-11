@@ -1,0 +1,25 @@
+{
+  "name": "qanoonisalah",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Qanooni Salah - Digital Legal Services Platform designed and developed by Technxtai",
+  "author": "Technxtai <support@technxtai.com> (https://technxtai.com)",
+  "homepage": "https://technxtai.com",
+  "scripts": {
+    "dev": "php -S localhost:8080 router.php",
+    "start": "php -S 0.0.0.0:8080 router.php",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": [
+    "qanoonisalah",
+    "legal-services",
+    "lawtech",
+    "technxtai",
+    "php",
+    "tailwind"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "UNLICENSED"
+}

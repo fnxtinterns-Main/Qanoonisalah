@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/about",
+      "dest": "/about.php"
+    },
+    {
+      "src": "/services",
+      "dest": "/services.php"
+    },
+    {
+      "src": "/talk-to-lawyer",
+      "dest": "/talktolawyer.php"
+    },
+    {
+      "src": "/partner",
+      "dest": "/partner.php"
+    },
+    {
+      "src": "/legal-insights",
+      "dest": "/blog.php"
+    },
+    {
+      "src": "/blog",
+      "dest": "/blog.php"
+    },
+    {
+      "src": "/contact",
+      "dest": "/contact.php"
+    },
+    {
+      "src": "/privacy",
+      "dest": "/privacy.php"
+    },
+    {
+      "src": "/terms",
+      "dest": "/termsconditions.php"
+    },
+    {
+      "src": "/property",
+      "dest": "/property.php"
+    },
+    {
+      "src": "/document",
+      "dest": "/document.php"
+    },
+    {
+      "src": "/startup",
+      "dest": "/startup.php"
+    },
+    {
+      "src": "/index",
+      "dest": "/index.php"
+    },
+    {
+      "src": "/",
+      "dest": "/index.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
